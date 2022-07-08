@@ -22,4 +22,3 @@ class Solution:
             idx += 1
         print(dp)
         return min(dp)
-    
