@@ -1,6 +1,6 @@
 class Solution:
     def maxAverageRatio(self, classes: List[List[int]], extraStudents: int) -> float:
-        # 堆，每次选最大边际收益的来提高
+        # 堆 (优先队列)，每次选最大边际收益的来提高
         # 边际收益计算公式为 a+1/b+1 - a/b = (b-a) / (b(b+1))
         import heapq
         L = []
