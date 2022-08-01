@@ -18,4 +18,9 @@ SortedList.pop(index=-1) 移除一个指定下标元素，如果有序序列为�
 
 总而言之，写查删都是O(log(n)),
 相比于最小堆，写是log(O(n))，查是O(1), 没有办法删
+
+
+SortedSet 和 SortedDict 其实都是类似的思想
+SortedSet: 相当于没有重复元素的SortedList
+SortedDict: 相当于字典的key值是按照sortedSet 来组织的
 """
