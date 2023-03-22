@@ -1,3 +1,5 @@
+# https://www.1point3acres.com/bbs/thread-957371-1-1.html
+
 # 两种解法，关键是BFS多记录一个状态就是目前用了多少elimation
 
 class Solution:
